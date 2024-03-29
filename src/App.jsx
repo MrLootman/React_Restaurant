@@ -5,7 +5,7 @@ import MenuList from "./components/MenuList";
 function App() {
   const foodItems = [
     {
-      itemName: "Caesar's Salad",
+      itemName: "Caesar Salad",
       description: "The original Caesar's Salad recipe",
       foodImage:
         "https://cdn.britannica.com/14/234014-050-CB842159/Caesar-salad-side-view.jpg",
@@ -42,7 +42,7 @@ function App() {
     <article>
       <h1>Wild Restaurant Menu</h1>
       {/* pass the variable foodItems as props to MenuList component */}
-      <MenuList />
+      <MenuList foodItems={foodItems}/>
     </article>
   );
 }

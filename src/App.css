@@ -34,3 +34,7 @@ figure figcaption {
   margin-top: 25px;
   padding-right: 1rem;
 }
+
+li {
+  list-style: none;
+}
